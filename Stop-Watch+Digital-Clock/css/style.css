@@ -1,0 +1,64 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+input ,button{
+    font-family: Magneto ;
+    background-color: blue ;
+    color: white ;
+    font-size: 20px ;
+    padding: 15px 32px ;
+    text-align: center ;
+    border-radius: 50px ;
+    position: relative ;
+    border-color: black ;
+    cursor: pointer ;
+}
+
+a{
+    text-decoration: none ;
+    color : white ;
+}
+.btn1 {
+    bottom: 380px ;
+    left: 20px ;
+}
+
+.btn2 {
+    bottom: 280px ;
+    left: 0px ;
+}
+
+.btn3 {
+    bottom: 280px ;
+    left: 540px ;
+}
+.btn4 {
+    bottom: 380px ;
+    left: 510px ;
+}
+
+.btn5{
+   bottom: 110px ;
+   right: 115px ;
+}
+
+
+.num {
+    color:orangered;
+	font-size:80px;
+	margin: 0 auto;
+	margin-top: 10px;
+	letter-spacing:4px;
+    position: absolute ;
+    top: 310px ;
+    left : 380px ;
+}
+
+sup {
+    position: absolute ;
+    bottom: 100px ;
+    left: 70px ;
+    font-size: 100px ;
+} 
