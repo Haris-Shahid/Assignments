@@ -1,0 +1,161 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+   background-color: #E8FFA2 ;
+} 
+
+header{
+    background-color: #FFCFA2 ;
+    border-bottom-right-radius : 10px;
+    border-bottom-left-radius : 10px;
+    z-index: 5 ;
+}
+
+header input {
+   font-family: 'Roboto', sans-serif; 
+   box-shadow: none ;
+   color: red ;
+   font-size: 15px ;
+   font-weight: bold ;
+   width: 80% ;
+   height: 40px ;
+   opacity: 0.5 ; 
+   margin: 0 0 20px 10% ;
+   border-radius: 25px ;
+   text-indent: 25px ; 
+   outline: none ;
+}
+
+ol{
+    color:blue ;
+    text-indent: 10px ;
+    margin: 10px 10% 10px 10% ;
+    background: whitesmoke ;
+    border-radius: 50px ;
+    font-size: 20px ;
+    font-style: oblique ;
+    font-weight: bold ;
+    z-index: 3 ;
+}
+
+li{
+    padding: 10px ;
+    width: 100% ;
+    height: 25px ;
+    outline: none ;
+    box-shadow: none ;
+    margin:0px 0px 10px 0px ;
+    position: relative ;
+}
+
+.btn2{
+     background: white ;
+    height: 45px ;
+    width: 45px ;
+    border: 0px ;
+    outline: none ;
+    border-radius : 100px ;
+    box-shadow: none ;
+    position: absolute ;
+    top : 0px ;
+    right : 0px ;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: red;
+   font-family: 'Roboto', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: red;
+   font-family: 'Roboto', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  opacity: 1;
+   font-family: 'Roboto', sans-serif;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  opacity: 1;
+   font-family: 'Roboto', sans-serif;
+}
+
+header h1{
+    font-family: 'Lobster', cursive;
+    color: #FC89A2 ;
+    font-size:70px  ;
+    text-align: center ;  
+    animation: colorChange 3s infinite alternate ;
+    -webkit-animation: colorChange 3s infinite alternate ;
+    -moz-animation: colorChange 3s infinite alternate ;
+    -o-animation: colorChange 3s infinite alternate ;
+}
+
+@-webkit-keyframes colorChange{
+	0%{color: red ;}
+	30%{color: yellow ;}
+	50%{color: green ;}
+	70%{color: orange ;}
+	80%{color: purple ;}
+	90%{color: blue ;}
+	100%{color: violet ;}
+}
+
+@-moz-keyframes colorChange{
+	0%{color: red ;}
+	30%{color: yellow ;}
+	50%{color: green ;}
+	70%{color: orange ;}
+	80%{color: purple ;}
+	90%{color: blue ;}
+	100%{color: violet ;}
+}
+
+@-o-keyframes colorChange{
+	0%{color: red ;}
+	30%{color: yellow ;}
+	50%{color: green ;}
+	70%{color: orange ;}
+	80%{color: purple ;}
+	90%{color: blue ;}
+	100%{color: violet ;}
+}
+
+@keyframes colorChange{
+	0%{color: red ;}
+	30%{color: yellow ;}
+	50%{color: green ;}
+	70%{color: orange ;}
+	80%{color: purple ;}
+	90%{color: blue ;}
+	100%{color: violet ;}
+}
+
+.btn1{
+    background: white ;
+    height: 45px ;
+    width: 45px ;
+    border: 0px ;
+    outline: none ;
+    border-radius : 100px ;
+    box-shadow: none ;
+    z-index: 2 ; 
+    position: absolute ;
+    top: 86px ;
+    right: 9%;
+    cursor: pointer ;
+    display: block ;
+}
+
+.svg1{
+    transition: all 0.5s linear ;
+}
+
+svg:hover .svg1{
+    fill: red ;
+}
+
+
