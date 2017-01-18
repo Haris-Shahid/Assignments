@@ -7,3 +7,6 @@
 
 ##Digital Clock :
 [Click to open Digital Clock](https://digital-clock-fb597.firebaseapp.com/)
+
+##First Practice Game :
+[Click to open First Practice Game](https://first-game-27ba.firebaseapp.com/)

@@ -1,0 +1,216 @@
+*{
+	margin: 0px ;
+	padding: 0px ;
+}
+body{
+	background-image: url('imp1.jpg') ;
+	background-repeat: no-repeat ;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:auto ;
+	 
+}
+.container {
+	width : 100%;
+	height: 100% ;
+}
+
+.div1,.div2,.div3,.div4,span{
+	font-size: 38px ;
+	font-style: oblique ;
+	font-weight: bold;
+	width: 300px ;
+	color: wheat ;
+	display: inline-block ;
+}
+clear{
+	clear: both ;
+}
+
+.canvas{
+    background-color: black ;
+    height:100% ;
+    width: 100% ; 
+}
+span{
+	text-indent: 20px ;
+	display: inline ;
+}
+.div1,.div3{
+	float: left ;
+}
+.div2,.div4{
+    float: right ;
+}
+
+.svg {
+    fill : red ;
+    transition: all 0.5s linear ;
+}
+
+.svg1{
+    fill :wheat ;
+    transition: all 0.5s linear ;
+}
+
+svg{
+	width: 5% ;
+	height: 5% ;
+	position: absolute ;
+}
+
+.svgbox1{
+	top :10%;
+	left :50% ;  /*up*/
+}
+.svgbox4{
+	top :20%;  
+	left :40% ;  /*left*/
+}
+
+.svgbox2{
+	top :20%;
+	left :60% ;   /*right*/
+}
+
+.svgbox3{
+	top :30%;
+	left :50% ;   /*down*/
+}
+#loss,
+#win{
+    font-size: 40px;
+    background-color:#DF0101;
+    color: wheat;
+    font-weight: bolder;
+    width: 40%;
+    height:30%;
+    padding:10px;
+    padding-bottom:20px;
+    text-align: center;
+    border-radius:20px;
+	position: absolute ;
+	top: 30% ;
+	left: 30% ;
+}
+
+a{
+	font-size:20px;
+    color: wheat;
+    font-family: sans-serif;
+    text-decoration: underline;;
+    cursor: pointer;
+	border-radius: 5px ; 
+}
+a:hover{
+	color : white ;
+	background-color: black ;
+}
+dialog img {
+	height: 30% ;
+	width: 20% ;
+}
+#error1{ 	
+	position: absolute ;
+	width: 7% ;
+	top: 18% ;
+	left:48% ;
+	font-size: 70px ;
+	font-style: oblique ;
+	font-weight: bolder ;
+	color : rebeccapurple ; 
+    animation: colorChange 0.6s infinite  alternate ;
+    -webkit-animation: colorChange 0.6s infinite alternate ;
+    -moz-animation: colorChange 0.6s infinite alternate ;
+    -o-animation: colorChange 0.6s infinite alternate ;
+	
+}
+@-webkit-keyframes colorChange{
+	0% {
+		color: black ;
+	}
+	100% {
+		color: red ;
+	}
+}
+
+@-moz-keyframes colorChange{
+	0% {
+		color: black ;
+	}
+	100% {
+		color: red ;
+	}
+}
+
+@-o-keyframes colorChange{
+	0% {
+		color: black ;
+	}
+	100% {
+		color: red ;
+	}
+}
+
+@keyframes colorChange{
+	0% {
+		color: black ;
+	}
+	100% {
+		color: red ;
+	}
+}
+@media only screen and (max-width : 610px){
+	.div1,.div2,.div3,.div4,span{
+					font-size: 25px ;
+					width: 180px ; 
+					}
+					
+				.svgbox1{
+					top :5%;
+					left :50% ;  /*up*/	
+					}
+				.svgbox4{
+					top :10%;  
+					left :40% ;  /*left*/
+					}
+
+				.svgbox2{
+					top :10%;
+					left :60% ;   /*right*/
+					}
+
+				.svgbox3{
+					top :15%;
+					left :50% ;   /*down*/
+					 }
+
+				#error1{ 
+					width: 5% ;	
+					top: 11% ;
+					left:45% ;
+					font-size: 25px ;
+						}
+				#loss,#win{
+    				font-size: 30px;
+					padding:10px;
+				    padding-bottom:0px;
+					position: absolute ;
+					top: 5% ;
+					left: 30% ;
+						}
+
+						a{
+					font-size:15px;
+						}
+					dialog img {
+					height: 30% ;
+					width: 30% ;
+						}
+
+
+}
+
+
+
+
