@@ -62,3 +62,57 @@ sup {
     left: 70px ;
     font-size: 100px ;
 } 
+
+@media only screen and (max-width: 425px){
+	input ,button{
+	height:10px;
+	width:10px;
+	font-size: 6px ;
+	padding: 10px 25px 15px 10px ;
+	border-radius: 20px ;
+	}
+	.btn1 {
+	bottom: 200px ;
+	left: 10px ;
+	}
+	
+	.btn2 {
+	bottom: 100px ;
+	left: 0px ;
+	}
+	
+	.btn3 {
+	bottom: 100px ;
+	left: 180px ;
+	padding: 10px 25px 15px 6px;
+	}
+	.btn4 {
+	bottom: 200px ;
+	left: 180px ;
+	padding: 10px 30px 15px 6px;
+	}
+	
+	.btn5{
+	bottom: 50px ;
+	right: 20px ;
+    padding: 5px 30px 20px 10px;
+	}
+	.num {
+	font-size:30px;
+	margin: 0 auto;
+	margin-top: 5px;
+	letter-spacing:1px;
+	top: 70px ;
+	left : 120px ;
+	}
+	
+	sup {
+	
+	bottom: 40px ;
+	left: 35px ;
+	font-size: 20px ;
+	} 
+canvas{
+ width:355px;
+}
+}
