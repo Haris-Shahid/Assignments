@@ -1,0 +1,89 @@
+body
+{
+    background-image: url('img1.jpg') ;
+	background-repeat: no-repeat ;
+	background-attachment: fixed ;
+	background-size: cover ; 
+    font-family: sans-serif;
+    background:;
+    color: darkslateblue;
+}
+#head
+{
+    padding: 20px;
+    margin: auto;
+    box-shadow: 3px 5px 7px 3px;
+    border-radius: 15px;
+    border: 1px solid darkslateblue;
+    width: 70%;
+    margin-top: 50px;
+} 
+p{
+    font-family: Script MT ;
+    font-size: 40px ;
+    font-weight: bolder ;
+}
+
+h2
+{
+    display: inline;
+    font-size: 80px;
+}
+#time
+{
+    display: inline;
+    float: right;
+    margin: 5px;
+    margin-top: 40px ;
+    font-size: 30px;
+}
+#main
+{
+    border: 1px solid darkslateblue;   
+    box-shadow: 3px 5px 7px 3px darkslateblue;
+    border-radius: 15px;   
+    margin: auto;
+    font-family: Cooper ;
+    text-indent:50px ;
+    font-size: 35px ;
+    margin-top: 2em ;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    color: blue ; 
+
+}
+ input[type=radio] {
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px ;
+    margin-right: 20px ;
+    box-shadow: 3px 5px 7px 3px darkslateblue;
+}
+.show
+{
+    visibility: visible;
+}
+.hide
+{
+    display: none;
+}
+#rep
+{
+    display: none
+}
+button,.design
+{
+    padding: 5px 20px 5px 20px;
+    background:orangered;
+    font-size: initial;
+    font-weight: 700;
+    color: rgba(250, 242, 200, 0.98);
+    border: 2px solid darkslateblue;
+    border-radius: 10px ;
+}
+button:hover,.design:hover
+{
+    background: red ;
+}

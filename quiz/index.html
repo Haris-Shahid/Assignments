@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet icon" href="scorpio1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="head">
+        <h2>Online Quiz Test</h2>
+        <p id="time"></p>
+    </div>
+    <div id="main">
+        <div id="qs" class="show">
+            <p>Click to start quiz....</p>
+            <button onclick="start()">Start</button>
+        </div>    
+        <div id="q1" class="hide">
+            <p>Question # 1 of 5<br>What value is return by getMonh in April?</p>
+            <input type="radio" name="ans" value="wrong">5<br>
+            <input type="radio" name="ans" value="wrong">4<br>
+            <input type="radio" name="ans" value="wrong">2<br>
+            <input type="radio" name="ans" value="3">3<br><br>
+            <input class="design" type="button" onclick="check()" value="submit">
+        </div>
+        <div id="q2" class="hide">
+            <p>Question # 2 of 5<br> External script must include the script tag? </p>
+            <input type="radio" name="ans" value="wrong">True<br>
+            <input type="radio" name="ans" value="false">False<br><br>
+            <input class="design" type="button" onclick="check()" value="submit">
+        </div>
+        <div id="q3" class="hide">
+             <p>Question # 3 of 5<br> Which of the following is not a mouse event?</p>
+            <input type="radio" name="ans" value="wrong">onmousemove<br>
+            <input type="radio" name="ans" value="wrong">onmouseover<br>
+            <input type="radio" name="ans" value="wrong">onclick<br>
+            <input type="radio" name="ans" value="onmousescroller">onmousescroller<br><br>
+            <input class="design" type="button" onclick="check()" value="submit">
+        </div>
+        <div id="q4" class="hide">
+           <p>Question # 4 of 5<br> Which of th following is not a simple data type?</p>
+            <input type="radio" name="ans" value="wrong">text string<br>
+            <input type="radio" name="ans" value="letter">letter<br>
+            <input type="radio" name="ans" value="wrong">number<br>
+            <input type="radio" name="ans" value="wrong">boolean<br><br>
+            <input class="design" type="button" onclick="check()" value="submit">
+        </div>
+        <div id="q5" class="hide">
+            <p>Question # 5 of 5<br>Almost no one uses IE4 any more so which DOM is least useful to include? </p>
+            <input type="radio" name="ans" value="all">all<br>
+            <input type="radio" name="ans" value="wrong">getElementById<br>
+            <input type="radio" name="ans" value="wrong">layer<br><br>
+            <input class="design" type="button" onclick="check()" value="submit">
+        </div>
+        <div id="q6" class="hide">
+            <p>Click here to get the result</p>
+            <button onclick="result()">Result</button>
+         </div>
+          <p id="result"></p>
+          <p id="rep">0</p>
+    </div>
+</body>
+</html>
