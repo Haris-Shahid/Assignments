@@ -2,6 +2,7 @@ body{
 	background-image: url('img1.jpg') ;
 	background-repeat: no-repeat ;
 	background-attachment: fixed ;
+	background-size:100%;
 	background-size: cover ;
 	 
 }
@@ -415,29 +416,33 @@ p.change_link{
 @media only screen and (max-width: 425px){
 	#register, 
 	#login{
-	width: 50%;	
-	margin-left:15px;
-	border-radius:20px;
+	width: 70%;	
+	padding: 0px 40px 0px 30px;
+	margin: 0 30px 0 10px;
+
 	}
+
 	.container {
-	position: fixed;
+	min-height:400px;
 	}
 	#wrapper{
-	width: 500px;
-	min-height: 300px;
+	width: 340px;
+	min-height: 50px;
 	}
 	body{
 	background-repeat: repeat ;
 	}
 	header h1{
-	font-size: 40px;
-	margin-right:30%;
+	font-size: 20px;
+	margin: 0 10px 0 10px;
+	padding:0px;
+	
 	}
 	#wrapper h1{
-	font-size: 30px;
+	font-size: 20px;
 	}
 	p.change_link{
-	margin-top:20px;
+	margin-top:0px;
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius:20px;
 	width:250px;
