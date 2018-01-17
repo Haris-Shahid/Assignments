@@ -3,11 +3,11 @@
   margin: 0px;
 }
 body{
-   background-color: #E8FFA2 ;
+   background-color: black ;
 } 
 
 header{
-    background-color: #FFCFA2 ;
+    background-color: blue ;
     border-bottom-right-radius : 10px;
     border-bottom-left-radius : 10px;
     z-index: 5 ;
@@ -16,12 +16,13 @@ header{
 header input {
    font-family: 'Roboto', sans-serif; 
    box-shadow: none ;
-   color: red ;
+   color:white ;
+   background: dodgerblue;
    font-size: 15px ;
    font-weight: bold ;
+   border: none;
    width: 80% ;
-   height: 40px ;
-   opacity: 0.5 ; 
+   height: 40px ; 
    margin: 0 0 20px 10% ;
    border-radius: 25px ;
    text-indent: 25px ; 
@@ -29,11 +30,11 @@ header input {
 }
 
 ol{
-    color:blue ;
+    color: gray ;
     text-indent: 10px ;
     margin: 10px 10% 10px 10% ;
-    background: whitesmoke ;
-    border-radius: 50px ;
+    background: #FFFF33 ;
+    border-radius: 30px ;
     font-size: 20px ;
     font-style: oblique ;
     font-weight: bold ;
@@ -65,20 +66,20 @@ li{
 }
 
 ::-webkit-input-placeholder { /* Chrome */
-  color: red;
+  color: white;
    font-family: 'Roboto', sans-serif;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: red;
+  color: white;
    font-family: 'Roboto', sans-serif;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: red;
+  color: white;
   opacity: 1;
    font-family: 'Roboto', sans-serif;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-  color: red;
+  color: white;
   opacity: 1;
    font-family: 'Roboto', sans-serif;
 }

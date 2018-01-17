@@ -20,7 +20,7 @@
 	clear: both ;
 	}
 
-a {
+.a1, .a2 {
  background-color:rgba(38,34,35,0.1);
 	color:#80FF00;
 	font-size:50px;
@@ -28,4 +28,8 @@ a {
 	position: absolute ;
 	top: 50px ;
 	cursor: pointer ;
+}
+
+.a2 {
+	right: 1%;
 }
